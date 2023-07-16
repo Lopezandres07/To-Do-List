@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    
+    <main class="container">
+        <section>
+            <h1>To Do List</h1>
+            <p>New Task:</p>
+            <div class="task">
+                <input
+                type="text"
+                id="newTask"
+                placeholder="Whrite or search a task"
+                >
+                <button id="addTask">Add</button>
+                <button id="searchTask">Search</button>
+            </div>
+            <article>
+                <div>
+                    <p>Total: <span id="totalTask"></span></p>
+                    <p>Finished: <span id="finishedTask"></span></p>
+                </div>
+                <div>
+                    <table>
+                        <thead>
+                            <th>Id</th>
+                            <th>Task</th>
+                        </thead>
+                        <tbody id="tasks"></tbody>
+                    </table>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/bdfbf6e3f1.js" crossorigin="anonymous"></script>
+</body>
+</html>
